@@ -10,6 +10,8 @@ import styles from './HomePage.module.css';
 import { SearchBar } from '../SearchBar/SearchBar';
 //import { SearchSuggestions } from './SearchSuggestions/SearchSuggestions';
 import useReactRouter from 'use-react-router'; 
+import {Redirect} from 'react-router-dom';
+//        <button onClick={event =>  window.location.href='/restaurant'}>
 
 var sectionStyle = {
   width: "100%",
@@ -40,10 +42,13 @@ export function HomePage() {
         <button className="button is-rounded" className={styles.category}>Movies</button>
         <img className={styles.restaurant1} src={indianfood}></img>
         <img className={styles.restaurant2} src={indianfood2}></img>
-
-
-        <button className="button is-rounded" className={styles.category2}>Restaurants</button>
         <button className="button is-rounded" className={styles.login}>Login</button>
+        <button  className="button is-rounded" className={styles.category2} onClick={() => history.push('/restaurant')}>
+
+        
+        
+  Restaurants
+</button>
         </section>
       </div>
       

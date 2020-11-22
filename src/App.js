@@ -5,7 +5,7 @@ import {RestaurantPage} from './RestaurantPage/RestaurantPage';
 import './App.css';
 import {Route, Switch} from 'react-router-dom';
 import {Search} from './Search/Search';
-import {Autocomplete} from './Autcomplete/Autocomplete';
+//import {Autocomplete} from './Autcomplete/Autocomplete';
 //import {LoginPage} from './LoginPage/Login';
 
 
@@ -16,7 +16,8 @@ function App() {
   return (
     <Switch>
       <Route path='/search' component={Search}/>
-      <Route path='/' component={RestaurantPage}/>
+      <Route exact path='/' component={HomePage}/>
+      <Route path='/restaurant' component={RestaurantPage}/>
     </Switch>
   );
 }

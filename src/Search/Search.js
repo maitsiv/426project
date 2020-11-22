@@ -3,7 +3,7 @@ import { Navigation } from '../Navigation/Navigation';
 import { SearchOutput } from './SearchOutput/SearchOutput';
 import { Results } from './Results/Results';
 import useReactRouter from 'use-react-router';
-import {useBusinessSearch} from '../reacthooks/yelp-api/useBusinessSearch';
+import {useRestaurant} from '../reacthooks/yelp-api/useRestaurant';
 
 export function Search() {
     //console.log("in search")
@@ -11,7 +11,7 @@ export function Search() {
     const params = new URLSearchParams(location.search);
     const term = params.get('find_desc');
     const locationParam = params.get('find_loc');
-    const [businesses, restaurantAmount, searchParams, performSearch] = useBusinessSearch(term, locationParam);
+    const [businesses, restaurantAmount, searchParams, performSearch] = useRestaurant(term, locationParam);
     //console.log(businesses)
 
     if (!term || !locationParam) {
