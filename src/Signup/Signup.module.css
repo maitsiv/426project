@@ -1,0 +1,31 @@
+
+    .login {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background:rgb(41, 44, 48) ;
+      
+      
+    }
+  
+    .loginCard{
+      background:#60a856 ;
+      width: 24rem;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.11);
+  
+    }
+  
+  
+    
+    .content{
+      padding: 3rem 2.5rem 5rem;
+    }
+  
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+      
+    }
+    

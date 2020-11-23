@@ -1,0 +1,33 @@
+#tweet-1 .name::before {
+    content: "";
+  }
+  
+  #tweet-1 .handle::after {
+    
+  }
+  
+  #tweet-1 .copy::before {
+    
+  }
+  
+  #tweet-1 .timestamp::after {
+    content: "1m";
+  }
+
+  #header-title {
+    position: relative;
+    float: center;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif
+  }
+
+  .tweetpic{
+    height: 10%;
+    width: 10%;
+    float: center;
+  }
+
+  .retweetmsg{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  

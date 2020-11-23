@@ -1,7 +1,8 @@
 .logo {
+    
     width: 180px;
     height: 80px;
-    margin: 50px 0;
+    margin: 50px ;
 }
 
 .search-area {
@@ -13,48 +14,80 @@
 .landing {
     display: flex;
     justify-content: center;
+    background: rgb(41, 44, 48);
 }
+
+
 
 
 .india {
     font-size: 60px;
     text-align: center;
-    color: white;
+    color: rgb(81, 129, 62);
+    font-family: 'Laila', serif;
+    font-weight: 100;
     
 }
 
-.category{
-    height: 50px;
-    position: relative;
-    top: 20px;
-    left:20px;
-}
 
 .category2{
-    height: 50px;
+    height: 70px;
+    font-size: 36px;
     position: relative;
-    top: -200px;
-    left: 500px;
+    font-family: 'Laila', serif;
+    top:-250px;
+    left: 600px;
+    border: 2px solid rgb(230, 163, 86);
+    transition-duration: 0.4s;
+    border-radius: 12px;
+
+}
+
+.category2:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
 }
 
 .login{
     height: 50px;
     position: relative;
+    top:-675px;
+    left: 1000px;
     float: center;
+    border: 2px solid rgb(230, 163, 86);
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    width: 125px;
+    
 }
 
-.movie1{
-    float: right;  
-    width: 10%;
-    height: 20%;
+.login:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-.movie2{
-    float: right;
-    width: 10%;
-    height: 20%;
+.signup{
+    height: 50px;
+    position: relative;
+    top:-675px;
+    left: -500px;
+    float: center;
+    border: 2px solid rgb(230, 163, 86);
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    width: 125px;
+    
 }
+
+.signup:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 
 .restaurant1{
     float: left;
@@ -64,8 +97,50 @@
 }
 
 .restaurant2{
+    float: right;
+    width: 20%;
+    height: 20%;
+
+}
+
+.rice{
     float: left;
     width: 20%;
     height: 20%;
+}
+
+.samosa{
+    float: left;
+    width: 20%;
+    height: 20%;
+}
+
+.food{
+    float: right;
+    width: 20%;
+    height: 20%;
+}
+
+.sweets{
+    float: right;
+    width: 20%;
+    height: 20%;
+}
+
+.intro{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(230, 163, 86);
+    font-family: 'Laila', serif;
+    font-weight: 100;
+}
+
+.logo{
+    
+    position: relative;
+    top:200px;
+    left: -175px;
+    width: 500px;
+    height: 300px;
 
 }
