@@ -17,6 +17,8 @@ import styles from './HomePage.module.css';
 import { SearchBar } from '../SearchBar/SearchBar';
 //import { SearchSuggestions } from './SearchSuggestions/SearchSuggestions';
 import useReactRouter from 'use-react-router'; 
+import {Redirect} from 'react-router-dom';
+//        <button onClick={event =>  window.location.href='/restaurant'}>
 
 var sectionStyle = {
   width: "100%",

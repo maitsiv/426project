@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
-import * as api from './api';
+import * as api from './yelp_api';
 
-export function useBusinessSearch(term, location) {
+export function useRestaurant(term, location) {
     const [businesses, setBusinesses] = useState([]);
     const [amountResults, setAmountResults] = useState();
     const [searchParams, setSearchParams] = useState({term, location});

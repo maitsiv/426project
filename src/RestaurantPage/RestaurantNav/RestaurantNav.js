@@ -9,11 +9,11 @@ import useReactRouter from 'use-react-router';
 export function RestaurantNav(props) {   
     const { history } = useReactRouter();
   
-    function search(term, location) {
-      const urlEncodedTerm = encodeURI(term);
-      const urlEncodedLocation = encodeURI(location);
+    function search(food, location) {
+      const urlFood = encodeURI(food);
+      const urlLocation = encodeURI(location);
       history.push(
-        `/search?find_desc=${urlEncodedTerm}&find_loc=${urlEncodedLocation}`
+        `/search?find_desc=${urlFood}&find_loc=${urlLocation}`
       );
     }
 

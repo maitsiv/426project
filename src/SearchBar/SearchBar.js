@@ -25,7 +25,7 @@ export function SearchBar(props) {
                            onChange={(e) => setTerm(e.target.value)}
                            type="text"
                            value={term}
-                           placeholder="dosas and mimosas"
+                           placeholder="food item"
                     />
                 </p>
                 <div className="control">
@@ -36,7 +36,7 @@ export function SearchBar(props) {
                            onChange={(e) => setLocation(e.target.value)}
                            type="text"
                            value={location}
-                           placeholder="ur mom"/>
+                           placeholder="city"/>
                 </p>
                 <div className={`button ${sizeClass} ${styles['search-button']}`} onClick={submit}>
                     <span className={`icon is-small ${styles['search-icon']}`}><i className="fas fa-search"></i></span>
